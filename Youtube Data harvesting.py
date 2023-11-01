@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 from googleapiclient.discovery import build
 import pandas as pd
-api_key="AIzaSyBagcfzDBLxMacOWccM02EnOuXQOfWdEWw"
+api_key="xxx" #Can generate from Google API
 youtube=build('youtube',"v3",developerKey=api_key)
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
